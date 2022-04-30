@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-plugin",
+  "name": "gatsby-plugin-piwik-pro",
   "version": "1.0.0",
-  "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
+  "description": "A simple setup for quickly adding Piwik pro analytics to your Gatsby website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,19 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "piwik-pro",
+    "analytics"
   ],
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
-  "license": "0BSD"
+  "author": "Levi Sørum <levi.sorum@gmail.com>",
+  "license": "0BSD",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leevi978/gatsby-plugin-piwik-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leevi978/gatsby-plugin-piwik-pro/issues"
+  },
+  "homepage": "https://github.com/leevi978/gatsby-plugin-piwik-pro#readme"
 }
