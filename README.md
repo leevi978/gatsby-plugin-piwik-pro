@@ -17,7 +17,7 @@ plugins: [
         {
             resolve: "gatsby-plugin-piwik-pro",
             options: {
-                siteUrl: "https://<YOUR-SITE>.containers.piwik.pro/",
+                containerUrl: "https://<YOUR-SITE>.containers.piwik.pro/",
                 siteId: "<SITE-ID>",
                 enabled: <BOOLEAN> // e.g. process.env.NODE_ENV === "production",
             },
