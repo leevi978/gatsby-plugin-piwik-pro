@@ -15,7 +15,6 @@
   ],
   "author": "Levi Sørum <levi.sorum@gmail.com>",
   "license": "0BSD",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leevi978/gatsby-plugin-piwik-pro.git"
@@ -23,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/leevi978/gatsby-plugin-piwik-pro/issues"
   },
-  "homepage": "https://github.com/leevi978/gatsby-plugin-piwik-pro#readme"
+  "homepage": "https://github.com/leevi978/gatsby-plugin-piwik-pro#readme",
+  "dependencies": {
+    "@piwikpro/react-piwik-pro": "^0.0.2"
+  }
 }
