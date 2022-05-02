@@ -1,6 +1,6 @@
 {
     "name": "gatsby-plugin-piwik-pro",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A simple setup for quickly adding Piwik-pro analytics to your Gatsby website",
     "main": "index.js",
     "scripts": {
