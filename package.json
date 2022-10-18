@@ -24,6 +24,6 @@
     },
     "homepage": "https://github.com/leevi978/gatsby-plugin-piwik-pro#readme",
     "dependencies": {
-        "@piwikpro/react-piwik-pro": "^0.0.2"
+        "@piwikpro/react-piwik-pro": "^1.1.1"
     }
 }
