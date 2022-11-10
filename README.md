@@ -19,7 +19,8 @@ plugins: [
             options: {
                 containerUrl: "https://<YOUR-SITE>.containers.piwik.pro",
                 siteId: "<SITE-ID>",
-                enabled: <BOOLEAN> // e.g. process.env.NODE_ENV === "production",
+                enabled: <BOOLEAN>, // e.g. process.env.NODE_ENV === "production",
+                nonce: "<NONCE>" // If you want to add a nonce to the script that gets added to the head. For CSR purposes
             },
         },
 

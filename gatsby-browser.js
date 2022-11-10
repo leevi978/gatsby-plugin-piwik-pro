@@ -3,7 +3,7 @@ const { PageViews } = require("@piwikpro/react-piwik-pro");
 
 exports.onClientEntry = (_, pluginOptions) => {
     pluginOptions.enabled &&
-        PiwikPro.initialize(pluginOptions.siteId, pluginOptions.containerUrl);
+        PiwikPro.initialize(pluginOptions.siteId, pluginOptions.containerUrl, pluginOptions.nonce);
 };
 
 exports.onRouteUpdate = ({ location, prevLocation }, pluginOptions) => {
